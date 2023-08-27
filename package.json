@@ -1,22 +1,27 @@
 {
-  "name": "identity",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/jollycola-sila/identity.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/jollycola-sila/identity/issues"
-  },
-  "homepage": "https://github.com/jollycola-sila/identity#readme",
-  "dependencies": {
-    "express": "^4.18.2"
-  }
+    "name": "identity",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "engines": {
+        "node": "12.22.6",
+        "npm": "8.19.2"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node index.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/jollycola-sila/identity.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/jollycola-sila/identity/issues"
+    },
+    "homepage": "https://github.com/jollycola-sila/identity#readme",
+    "dependencies": {
+        "express": "^4.18.2"
+    }
 }
